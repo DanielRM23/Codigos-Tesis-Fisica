@@ -20,7 +20,8 @@ do
 		echo "ejecución" $r
 		echo "proba" $p
 		# Se almacena el tiempo de ejecución de cada ejecución en una bitácora para monitorearla
-		{ time julia programa_julia_clasico.jl $1 $2 $p $r $s; } 2>> bitacora$1
+  		#En este apartado se ejecuta el script que calcula la probabilidad de retorno (cuántica)
+		{ time julia programa_julia_final.jl $1 $2 $p $r $s; } 2>> bitacora$1
 		echo "-------------------"
 		# Se guardan los archivos en carpetas 
 		mkdir $p
