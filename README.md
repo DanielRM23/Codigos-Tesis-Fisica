@@ -1,4 +1,4 @@
-# Codigos_Tesis_Fisica_DRM
+# Códigos de Tesis: Estudio de Caminatas Cuánticas en Redes de Mundo Pequeño
 
 Se encuentran los códigos desarrollados para el proyecto de titulación titulado "Estudio de Caminatas Cuánticas en Redes de Mundo Pequeño". 
 Se proporcionan cuatro archivos: dos con extensión .jl y otros dos con extensión .sh.
